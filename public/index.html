@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form action="">
       <label for="name">Name</label>
-      <input type="name" name="name" id="name" />
+      <input name="name" id="name" />
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
+      <input name="email" id="email" />
       <button id="save">Save</button>
-      <button id="update">Update</button>
-      <button id="delete">Delete</button>
-      <div id="users"></div>
+      <br /><br />
+      <label for="email">_id</label>
+      <input name="email" id="id" />
+      <button id="update">Update by _id</button>
+      <button id="delete">Delete by _id</button>
     </form>
+    <br />
+    <div id="users"></div>
+    <script src="app.js"></script>
   </body>
 </html>
